@@ -1,0 +1,41 @@
+/* Reset default margin and padding*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flexbox Container */
+.flex-container{
+    display: flex;
+    border: 8px solid black;
+    padding: 5px;
+    height: 200px;
+}
+
+.flex-item{
+    background-color: lightblue;
+    border: 1px solid darkmagenta;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    flex: 1;  /* Each item takes equal space */
+}
+
+
+    .flex-container2 {
+        display: flex;
+        border: 10px solid blue;
+        padding: 8px;
+        height:700px;
+ }
+    .flex-item2 {
+        background-color: aquamarine;
+        border: 10px solid darkmagenta;  
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        flex: 1;
+
+}
